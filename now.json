@@ -1,12 +1,10 @@
 {
   "version": 1,
   "name": "ueditor",
-  "regions": ["syd1"],
   "routes": [
-    { "src": ".*", "headers":
-      {
-        "Access-Control-Allow-Origin": "*"
-      }
+    { 
+      "src": ".*", 
+      "headers": {"Access-Control-Allow-Origin": "*"}
     }
   ]
 }
