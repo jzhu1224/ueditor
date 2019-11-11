@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "name": "ueditor",
+  "routes": [
+    { "src": ".*", "headers":
+      {
+        "Access-Control-Allow-Origin": "*"
+      }
+    }
+  ]
+}
